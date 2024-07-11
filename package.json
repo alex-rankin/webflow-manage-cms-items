@@ -1,0 +1,16 @@
+{
+  "name": "webflow-delete-all-cms-items",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clearall": "node src/clearAll.js",
+    "clearspecific": "node src/clearSpecific.js",
+    "deleteall": "node src/deleteAll.js",
+    "deletespecific": "node src/deleteSpecific.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5"
+  }
+}
