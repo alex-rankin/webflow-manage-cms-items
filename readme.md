@@ -11,7 +11,7 @@ The scripts are rate-limited to avoid hitting Webflow's rate limits.
 ## Prerequisites
 
 - Node.js
-- npm
+- Yarn / NPM
 - A Webflow API token
 
 ## Installation
@@ -19,14 +19,14 @@ The scripts are rate-limited to avoid hitting Webflow's rate limits.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/webflow-cms-manager.git
-   cd webflow-cms-manager
+   git clone https://github.com/alex-rankin/webflow-manage-cms-items.git
+   cd webflow-manage-cms-items
    ```
 
 2. Install the dependencies:
 
    ```bash
-   npm install
+   yarn install
    ```
 
 3. Create a `.env` file in the root directory of your project and add the following:
